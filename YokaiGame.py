@@ -283,7 +283,7 @@ class Yokai:
             pygame.mixer.music.load("Battle-Ayakashi.mp3")
             pygame.mixer.music.play(-1)
         
-        elif self.game_state == PLAY:  # ゲームプレイ画面
+        elif self.game_state == PLAY:  # ゲームプレイ画面作成
             screen.fill((0, 0, 0))
             # 無敵時間中は自機が点滅する
             if self.player.invisible % 10 > 4:
